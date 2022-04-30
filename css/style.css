@@ -5,3 +5,11 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.links {
+    color: white;
+}
+#meusLinks {
+    display: flex;
+    grid-gap: 20px;
+}
