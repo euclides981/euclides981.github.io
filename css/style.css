@@ -5,11 +5,9 @@ body {
     align-items: center;
     justify-content: center;
 }
-
-.links {
-    color: white;
-}
 #meusLinks {
+    padding: 5px;
     display: flex;
-    grid-gap: 20px;
+    grid-gap: 90px;
+    align-items: center;
 }
