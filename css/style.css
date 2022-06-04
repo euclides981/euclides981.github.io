@@ -1,13 +1,12 @@
 body {
-    display: flex;
-    height: 95vh;
-    background: #ccc;
-    align-items: center;
-    justify-content: center;
+    background: rgb(201, 196, 191);
 }
-#meusLinks {
-    padding: 5px;
-    display: flex;
-    grid-gap: 90px;
-    align-items: center;
+.meusLinks {
+    margin:10px 0 0 10px;
+    z-index: 1;
+}
+
+.bt_links {
+    width: 30px;
+    
 }
