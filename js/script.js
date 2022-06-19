@@ -19,7 +19,7 @@ $('#navbar a, #texto a').click(function (e){
     );
 });
 
-// Opacidade na barra de navegação
+/* // Opacidade na barra de navegação
 
 window.addEventListener("scroll", function  () {
     if (window.scrollY > 50) {
@@ -27,4 +27,4 @@ window.addEventListener("scroll", function  () {
     } else {
         document.querySelector("#navbar").style.opacity = 1;
     }
-})
+}) */
