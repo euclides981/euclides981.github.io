@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 40 40"
+   width="40"
+   height="40"
+   version="1.1"
+   id="svg12"
+   sodipodi:docname="gmail.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs16" />
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     showgrid="false"
+     inkscape:showpageshadow="false"
+     inkscape:zoom="13.875"
+     inkscape:cx="24"
+     inkscape:cy="23.963964"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg12" />
+  <g
+     id="g838"
+     transform="matrix(0.95238095,0,0,1.25,-2.8571428,-10)"
+     style="stroke-width:0.91652">
+    <path
+       fill="#4caf50"
+       d="m 45,16.2 -5,2.75 -5,4.75 V 40 h 7 c 1.657,0 3,-1.343 3,-3 z"
+       id="path2"
+       style="stroke-width:0.939148" />
+    <path
+       fill="#1e88e5"
+       d="M 3,16.2 6.614,17.91 13,23.7 V 40 H 6 C 4.343,40 3,38.657 3,37 Z"
+       id="path4"
+       style="stroke-width:0.939148" />
+    <polygon
+       fill="#e53935"
+       points="13,23.7 24,31.95 35,23.7 36,17 35,11.2 24,19.45 13,11.2 12,17 "
+       id="polygon6"
+       style="stroke-width:0.939148" />
+    <path
+       fill="#c62828"
+       d="M 3,12.298 V 16.2 l 10,7.5 V 11.2 L 9.876,8.859 C 9.132,8.301 8.228,8 7.298,8 V 8 C 4.924,8 3,9.924 3,12.298 Z"
+       id="path8"
+       style="stroke-width:0.939148" />
+    <path
+       fill="#fbc02d"
+       d="M 45,12.298 V 16.2 L 35,23.7 V 11.2 L 38.124,8.859 C 38.868,8.301 39.772,8 40.702,8 V 8 C 43.076,8 45,9.924 45,12.298 Z"
+       id="path10"
+       style="stroke-width:0.939148" />
+  </g>
+</svg>

@@ -7,37 +7,162 @@
         <link rel="icon" type="image/x-icon" href="img/favicon.svg">
         <!-- CSS -->
         <link rel="stylesheet" href="css/reset.css">
-        <!-- CSS only -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/header.css">
         <link rel="stylesheet" href="css/style.css">
-        <title>Porifólio - Euclides</title>
+        <link rel="stylesheet" href="css/sobre.css">
+        <link rel="stylesheet" href="css/projetos.css">
+        <link rel="stylesheet" href="css/contato.css">
+        <title>Porifólio - euclides981</title>
     </head>
-    <div class="meusLinks position-absolute d-flex gap-3"> 
-        <a href="https://github.com/euclides981" target="_blank"><img src="https://euclides981.github.io/img/github.svg"  class="bt_links" title="Perfil GitHub" alt="Perfil GitHub"></a>
-        <a href="https://www.linkedin.com/in/euclides981/" target="_blank"><img src="https://euclides981.github.io/img/linkedin.svg" class="bt_links" title="Perfil Linkedin" alt="Perfil Linkedin"></a>
-    </div>
     <body>
-        <section>
-            <div class="p-3 border rounded border-light d-grid gap-5 position-absolute top-50 start-50 translate-middle">
-                <h5 class="d-flex justify-content-center card-title">PROJETOS</h5>
-                <div class="border-top border-light d-flex justify-content-center"></div>
-                <div class="d-flex justify-content-center">
-                    <div id="meusLinks" class="d-flex gap-5"> 
-                        <a href="https://euclides981.github.io/criptografia/" target="_blank">
-                            <img src="https://euclides981.github.io/img/logoCripto.svg"
-                            title="Criptografia" alt="Criptografia">
-                        </a>
-                        <a href="https://euclides981.github.io/jogo-da-forca/" target="_blank">
-                            <img src="https://euclides981.github.io/img/favi_forca.svg"
-                            title="Jogo da Forca" alt="Jogo da Forca">
-                        </a>
-                        <a href="https://euclides981.github.io/biscoito-da-sorte/" target="_blank">
-                            <img src="https://euclides981.github.io/biscoito-da-sorte/img/favicon.svg"
-                            title="Biscoito da Sorte" alt="Biscoito da Sorte">
-                        </a>
+        <header id="topo">
+            <nav id="navbar">
+                <div class="logo">
+                    <a href="#topo"><img src="img/logo_euc.svg" alt="Logo"></a>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a href="#topo" title="SOBE">&nbsp;⬆&nbsp;</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                        <li><a href="#rodape" title="DESCE">&nbsp;⬇&nbsp;</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div id="sobre">
+                <div id="sobreMim">
+                    <div id="foto"><img src="img/eu.png" alt="">
+                    </div>
+                        <div id="texto">
+                            <h1>Olá. Meu nome é Euclides.</h1>
+                        <p>Tenho 40 anos, casado e moro em Jundiaí, interior de SP.</p>
+                        <p>Venho da Área Técnica de Redes de Telecomunicações, onde trabalhei por Quase 10 Anos.</p>
+                        <p>Quando comecei na área de Redes não sabia o que era Crimpar um RJ45,<br> mas com dedicação
+                            e ajuda dos mais experientes fui desenvolvendo e<br> no final da minha experiência
+                            atuei Coordenando e Executando Projetos de Redes de Fibra Optica.
+                        </p>
+                        <p>Foram bons tempos, mas decidi encerrar este ciclo e Migrar de Carreira.</p>
+                        <p>Entrei de cabeça nos estudos de programação em abril de 2022, e a cada dia é um novo aprendizado.</p>
+                        <p>Fique a vontade para <a href="#contato">enviar</a> um feedback e navegar pelo site</p>
+                    </div>
+                </div>
+                <div id="soft_skills">
+                    <h3>Soft Skills</h3>
+                    <div id="soft">
+                        <div class="circ">Afinco</div>
+                        <div class="circ_par">Dedicação</div>
+                        <div class="circ">Ética</div>
+                        <div class="circ_par">Foco</div>
+                        <div class="circ">Respeito</div>
+                    </div>
+                </div>
+                <div id="hard_skills">
+                    <h3>Hard Skills</h3>
+                    <div id="hard">
+                       <div class="circ_par"><img src="img/html5.svg" alt=""></div>
+                       <div class="circ"><img src="img/css3.svg" alt=""></div>
+                       <div class="circ_par"><img src="img/js.svg" alt=""></div>
+                       <div class="circ"><img src="img/github.svg" alt=""></div>
+                       <div class="circ_par"><img src="img/git.svg" alt=""></div>
+                       <div class="circ"><img src="img/bts.svg" alt=""></div>
+                       <div class="circ_par"><img src="img/inks.svg" alt=""></div>
+                    </div>
+                </div>
+                <div id="hobbies">
+                    <!-- <h3>Hobbies</h3>
+                    <div id="hard">
+                       <div class="circ"><img src="img/html5.svg" alt=""></div>
+                    </div> -->
+                </div>
+            </div>
+            <div id="projetos">
+                <div class="titulo">
+                    <h3>
+                        A seguir apresento alguns trabalhos realizados neste período de aprendizado
+                    </h3>
+                </div>
+                <div class="cards">
+                    <div class="card_image">
+                        <img src="img/cards/criptografia.svg" alt="">
+                        <h2>Encriptador</h2>
+                        <h3>Encriptador de texto que encripta vogais</h3>
+                        <p>Primeiro projeto sugerido pela Alura ONE</p>
+                        <a href="https://euclides981.github.io/criptografia/" target="_blank" class="btn_projetos">Acessar Projeto</a>
+                    </div>
+                    <div class="card_image">
+                        <img src="img/cards/forca.svg" alt="">
+                        <h2>Jogo da Forca</h2>
+                        <h3>Famoso Jogo da forca em JavaScript</h3>
+                        <p>Segundo projeto sugerido pela Alura ONE</p>
+                        <a href="https://euclides981.github.io/jogo-da-forca/" target="_blank" class="btn_projetos">Acessar Projeto</a>
+                    </div>
+                    <div class="card_image">
+                        <img src="img/cards/biscoito.svg" alt="">
+                        <h2>Biscoito da Sorte</h2>
+                        <h3>Frases sorteadas aleatoriamente</h3>
+                        <p>Projeto sugerido no curso de Back-end da Cellep</p>
+                        <a href="https://euclides981.github.io/biscoito-da-sorte/" target="_blank" class="btn_projetos">Acessar Projeto</a>
+                    </div>
+                    <div class="card_image">
+                        <img src="img/cards/hora.svg" alt="">
+                        <h2>Hora Certa</h2>
+                        <h3>Estudo do objeto Date</h3>
+                        <p>Fusos horários das principais cidades do mundo</p>
+                        <a href="https://euclides981.github.io/hora-certa/" target="_blank" class="btn_projetos">Acessar Projeto</a>
+                    </div>
+                    <div class="card_image">
+                        <img src="img/cards/calc.svg" alt="">
+                        <h2>Calculadora</h2>
+                        <h3>Calculadora básica em javascript</h3>
+                        <p>Calculadora javascript com operações básicas</p>
+                        <a href="https://euclides981.github.io/calculadora/" target="_blank" class="btn_projetos">Acessar Projeto</a>
+                    </div>
+                </div>
+            </div>    
+            <div id="contato">
+                <div class="titulo">
+                    <h3>
+                        Entre em Contato
+                    </h3>
+                </div>
+                <form id="campos" method="post" action="https://api.staticforms.xyz/submit">
+                    <input type="hidden" name="accessKey" value="0ebeb789-c498-47ce-b606-9eb8ccd3c80b">
+                    <input type="hidden" name="redirectTo" value="https://euclides981.github.io/">
+                    <input class="formulario" type="text" name="name" id="inputNome" placeholder="Nome" required>
+                    <input class="formulario" type="email" name="email" id="inputEmail" placeholder="Email" required>
+                    <textarea class="formulario" type="message" name="message" id="textAreaMensagem" rows="10" placeholder="Mensagem" required></textarea>
+                    <button class="formulario btn_enviar" type="submit">Enviar</button>
+                </form>
+                <div class="midias">
+                    <div class="links_sociais">
+                        <a href="https://www.linkedin.com/in/euclides981/" target="_blank"><img src="https://euclides981.github.io/img/linkedin.svg" alt=""></a>
+                        <h4>Perfil<br>Linkedin</h4>
+                    </div>
+                    <div class="links_sociais">
+                        <a href="https://github.com/euclides981" target="_blank"><img src="https://euclides981.github.io/img/github.svg" alt=""></a>
+                        <h4>Repositório<br>GitHub</h4>
+                    </div>
+                    <div class="links_sociais">
+                        <a href="https://t.me/euclides981" target="_blank"><img src="img/telegram.svg" alt=""></a>
+                        <h4>Perfil<br>Telegram</h4>
+                    </div>
+                </div>
+                <div id="teste">
+                    <div id="mailto"><h2>mailto</h2>
+                        <a href="mailto:euclides981@gmail.com"><h3>euclides981</h3></a>
                     </div>
                 </div>
             </div>
-        </section>
+        </main>
+        <footer>
+            <div id="rodape">
+                &COPY; euclides981
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
     </body>
 </html>

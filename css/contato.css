@@ -1,0 +1,65 @@
+#contato {
+    background-color: #264653;
+    padding: 20px;
+}
+#campos {
+    display: grid;
+    box-shadow: 1px 1px 10px #969292;
+    background-color: #fff;
+    gap: 5px;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+.formulario {
+    border: solid 1px #264653;
+    border-radius: 2px;
+    resize: none;
+    outline: none;
+}
+.btn_enviar {
+    border: none;
+    padding: 10px;
+    background-color: #E76F51;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #264653;
+}
+.btn_enviar:hover {
+    background-color: #264653;
+    color: #fff;
+}
+.midias {
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
+.links_sociais {
+    display: grid;
+    width: 100px;
+    border: solid 1px #fff;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+#teste {
+    display: flex;
+    justify-content: center;
+}
+#mailto {
+    display: grid;
+    padding: 10px;
+    width: 100px;
+    border: solid 1px #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    gap: 10px;
+    text-align: center;
+}
+#mailto a {
+    text-decoration: none;
+}

@@ -1,0 +1,57 @@
+#projetos {
+    display: grid;
+    background-color: #E76F51;
+    padding: 20px 0 50px 0;
+}
+.titulo {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.titulo h3 {
+    color: #fff;
+    text-align: center;
+}
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.card_image {
+    display: grid;
+    gap: 5px;
+    border-radius: 5px;
+    background-color: #ece4e4;
+    max-width: 350px;    
+    padding: 15px;
+}
+.card_image:hover {
+    background-color: #ccc;
+}
+.cards img {
+    background-color: #fff;
+    width: 100%;    
+}
+.btn_projetos {
+    margin-top: 10px;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    letter-spacing: .2em;
+    background-color: #264653;
+    border: none;
+    padding: 5px;
+    color: #fff;
+    text-transform: uppercase; 
+    cursor: pointer;
+}
+.btn_projetos:hover {
+    background-color: #E76F51;
+}

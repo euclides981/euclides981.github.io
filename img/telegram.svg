@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   role="img"
+   viewBox="0 0 40 40"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="telegram.svg"
+   width="40"
+   height="40"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     showgrid="false"
+     showborder="true"
+     inkscape:showpageshadow="false"
+     inkscape:zoom="9.8111066"
+     inkscape:cx="-0.40770121"
+     inkscape:cy="16.868637"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <title
+     id="title2">Telegram</title>
+  <path
+     d="M 19.906667,2.1777578e-5 A 20,19.999973 0 0 0 0,19.999995 20,19.999973 0 0 0 20,39.999967 20,19.999973 0 0 0 40.000001,19.999995 20,19.999973 0 0 0 20,2.1777578e-5 a 20,19.999973 0 0 0 -0.09333,0 z M 28.176667,12.040005 c 0.166667,-0.0033 0.535,0.03833 0.775,0.233333 a 0.84333335,0.84333219 0 0 1 0.285,0.541666 c 0.02667,0.155 0.06,0.51 0.03333,0.786666 -0.3,3.163329 -1.603334,10.836652 -2.266667,14.378314 -0.28,1.499998 -0.831667,2.001664 -1.366667,2.049997 -1.16,0.108333 -2.041667,-0.766666 -3.166667,-1.503331 -1.76,-1.154999 -2.755,-1.873331 -4.463333,-2.999996 -1.975,-1.299999 -0.695,-2.016664 0.43,-3.183329 0.295,-0.306667 5.411667,-4.96166 5.511667,-5.383326 0.01167,-0.05333 0.02334,-0.25 -0.09333,-0.353333 -0.116666,-0.103333 -0.29,-0.06833 -0.415,-0.04 -0.176666,0.04 -2.988333,1.899997 -8.435,5.574992 -0.8,0.55 -1.521666,0.816666 -2.17,0.799999 -0.713333,-0.01333 -2.086666,-0.401666 -3.1083331,-0.733332 -1.2533334,-0.408333 -2.2483334,-0.623333 -2.1616667,-1.314998 0.045,-0.36 0.5416666,-0.728333 1.4883333,-1.104999 C 14.883334,17.248332 18.77,15.573334 20.716667,14.765002 c 5.553334,-2.309997 6.708334,-2.711663 7.46,-2.724997 z"
+     id="path4"
+     style="stroke-width:1;fill:#0088cc;fill-opacity:1" />
+  <metadata
+     id="metadata827">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Telegram</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
