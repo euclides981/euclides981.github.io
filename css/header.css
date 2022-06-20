@@ -16,20 +16,19 @@
     display: flex;
     margin-right: 20px;
 }
-.links ul {
+#links_lista {
     display: flex;
     justify-content: end;
     gap: 20px;
     text-transform: uppercase;
 }
-.links ul li a {
+.links_nav {
     color: #fff;
     text-decoration: none;
 }
-.links ul li a:hover {
+.links_nav:hover {
     border-bottom: 2px solid #fff;
 }
-
 @media only screen and (max-width: 600px) {
     .logo {
         display: none;

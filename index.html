@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="css/sobre.css">
         <link rel="stylesheet" href="css/projetos.css">
         <link rel="stylesheet" href="css/contato.css">
+        <link rel="stylesheet" href="css/rodape.css">
         <title>Porifólio - euclides981</title>
     </head>
     <body>
@@ -21,12 +22,12 @@
                     <a href="#topo"><img src="img/logo_euc.svg" alt="Logo"></a>
                 </div>
                 <div class="links">
-                    <ul>
-                        <li><a href="#topo" title="SOBE">&nbsp;⬆&nbsp;</a></li>
-                        <li><a href="#sobre">Sobre</a></li>
-                        <li><a href="#projetos">Projetos</a></li>
-                        <li><a href="#contato">Contato</a></li>
-                        <li><a href="#rodape" title="DESCE">&nbsp;⬇&nbsp;</a></li>
+                    <ul id="links_lista">
+                        <li><a class="links_nav" href="#topo" title="SOBE">&nbsp;⬆&nbsp;</a></li>
+                        <li><a class="links_nav" href="#sobre">Sobre</a></li>
+                        <li><a class="links_nav" href="#projetos">Projetos</a></li>
+                        <li><a class="links_nav" href="#contato">Contato</a></li>
+                        <li><a class="links_nav" href="#rodape" title="DESCE">&nbsp;⬇&nbsp;</a></li>
                     </ul>
                 </div>
             </nav>
@@ -34,7 +35,7 @@
         <main>
             <div id="sobre">
                 <div id="sobreMim">
-                    <div id="foto"><img src="img/eu.png" alt="">
+                    <div id="foto"><img id="minha_foto"src="img/eu.png" alt="">
                     </div>
                         <div id="texto">
                             <h1>Olá. Meu nome é Euclides.</h1>
@@ -46,7 +47,7 @@
                         </p>
                         <p>Foram bons tempos, mas decidi encerrar este ciclo e Migrar de Carreira.</p>
                         <p>Entrei de cabeça nos estudos de programação em abril de 2022, e a cada dia é um novo aprendizado.</p>
-                        <p>Fique a vontade para <a href="#contato">enviar</a> um feedback e navegar pelo site</p>
+                        <p>Fique a vontade para <a id="link_contato" href="#contato">enviar</a> um feedback e navegar pelo site</p>
                     </div>
                 </div>
                 <div id="soft_skills">
@@ -62,13 +63,13 @@
                 <div id="hard_skills">
                     <h3>Hard Skills</h3>
                     <div id="hard">
-                       <div class="circ_par"><img src="img/html5.svg" alt=""></div>
-                       <div class="circ"><img src="img/css3.svg" alt=""></div>
-                       <div class="circ_par"><img src="img/js.svg" alt=""></div>
-                       <div class="circ"><img src="img/github.svg" alt=""></div>
-                       <div class="circ_par"><img src="img/git.svg" alt=""></div>
-                       <div class="circ"><img src="img/bts.svg" alt=""></div>
-                       <div class="circ_par"><img src="img/inks.svg" alt=""></div>
+                       <div class="circ_par"><img class="imgs_hard" src="img/html5.svg" alt=""></div>
+                       <div class="circ"><img class="imgs_hard" src="img/css3.svg" alt=""></div>
+                       <div class="circ_par"><img class="imgs_hard" src="img/js.svg" alt=""></div>
+                       <div class="circ"><img class="imgs_hard" src="img/github.svg" alt=""></div>
+                       <div class="circ_par"><img class="imgs_hard" src="img/git.svg" alt=""></div>
+                       <div class="circ"><img class="imgs_hard" src="img/bts.svg" alt=""></div>
+                       <div class="circ_par"><img class="imgs_hard" src="img/inks.svg" alt=""></div>
                     </div>
                 </div>
                 <div id="hobbies">
@@ -86,35 +87,35 @@
                 </div>
                 <div class="cards">
                     <div class="card_image">
-                        <img src="img/cards/criptografia.svg" alt="">
+                        <img class="img_projetos" src="img/cards/criptografia.svg" alt="">
                         <h2>Encriptador</h2>
                         <h3>Encriptador de texto que encripta vogais</h3>
                         <p>Primeiro projeto sugerido pela Alura ONE</p>
                         <a href="https://euclides981.github.io/criptografia/" target="_blank" class="btn_projetos">Acessar Projeto</a>
                     </div>
                     <div class="card_image">
-                        <img src="img/cards/forca.svg" alt="">
+                        <img class="img_projetos" src="img/cards/forca.svg" alt="">
                         <h2>Jogo da Forca</h2>
                         <h3>Famoso Jogo da forca em JavaScript</h3>
                         <p>Segundo projeto sugerido pela Alura ONE</p>
                         <a href="https://euclides981.github.io/jogo-da-forca/" target="_blank" class="btn_projetos">Acessar Projeto</a>
                     </div>
                     <div class="card_image">
-                        <img src="img/cards/biscoito.svg" alt="">
+                        <img class="img_projetos" src="img/cards/biscoito.svg" alt="">
                         <h2>Biscoito da Sorte</h2>
                         <h3>Frases sorteadas aleatoriamente</h3>
                         <p>Projeto sugerido no curso de Back-end da Cellep</p>
                         <a href="https://euclides981.github.io/biscoito-da-sorte/" target="_blank" class="btn_projetos">Acessar Projeto</a>
                     </div>
                     <div class="card_image">
-                        <img src="img/cards/hora.svg" alt="">
+                        <img class="img_projetos" src="img/cards/hora.svg" alt="">
                         <h2>Hora Certa</h2>
                         <h3>Estudo do objeto Date</h3>
                         <p>Fusos horários das principais cidades do mundo</p>
                         <a href="https://euclides981.github.io/hora-certa/" target="_blank" class="btn_projetos">Acessar Projeto</a>
                     </div>
                     <div class="card_image">
-                        <img src="img/cards/calc.svg" alt="">
+                        <img class="img_projetos" src="img/cards/calc.svg" alt="">
                         <h2>Calculadora</h2>
                         <h3>Calculadora básica em javascript</h3>
                         <p>Calculadora javascript com operações básicas</p>
@@ -152,7 +153,7 @@
                 </div>
                 <div id="teste">
                     <div id="mailto"><h2>mailto</h2>
-                        <a href="mailto:euclides981@gmail.com"><h3>euclides981</h3></a>
+                        <a id="link_mailto" href="mailto:euclides981@gmail.com"><h3>euclides981</h3></a>
                     </div>
                 </div>
             </div>

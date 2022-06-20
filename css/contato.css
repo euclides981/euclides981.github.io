@@ -1,6 +1,7 @@
 #contato {
     background-color: #264653;
     padding: 20px;
+    padding-bottom: 100px;
 }
 #campos {
     display: grid;
@@ -18,6 +19,7 @@
     border-radius: 2px;
     resize: none;
     outline: none;
+    font-family: 'Ubuntu', sans-serif;
 }
 .btn_enviar {
     border: none;
@@ -52,6 +54,7 @@
 }
 #mailto {
     display: grid;
+    color: #fff;
     padding: 10px;
     width: 100px;
     border: solid 1px #fff;
@@ -60,6 +63,6 @@
     gap: 10px;
     text-align: center;
 }
-#mailto a {
+#link_mailto {
     text-decoration: none;
 }

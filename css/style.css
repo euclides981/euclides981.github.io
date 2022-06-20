@@ -29,10 +29,3 @@ h5 {
 h6 {
     font-size: .67em;    
 }
-#rodape {
-    display: grid;
-    background-color: #2A9D8F;
-    height: 50px;
-    justify-content: center;
-    align-items: center;
-}
