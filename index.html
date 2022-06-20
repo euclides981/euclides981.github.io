@@ -18,9 +18,18 @@
     <body>
         <header id="topo">
             <nav id="navbar">
-                <div class="logo">
-                    <a href="#topo"><img src="img/logo_euc.svg" alt="Logo"></a>
-                </div>
+
+
+                <picture id="logos_p_g">
+                    <source media="(max-width:600px )" srcset="img/logo.svg">
+                    <img id="logo_e9" src="img/logo.svg" alt="Logo">
+                    <div class="logo">
+                        <a href="#topo"><img src="img/logo_euc.svg" alt="Logo"></a>
+                    </div>
+                </picture>
+
+
+
                 <div class="links">
                     <ul id="links_lista">
                         <li><a class="links_nav" href="#topo" title="SOBE">&nbsp;⬆&nbsp;</a></li>
@@ -160,7 +169,9 @@
         </main>
         <footer>
             <div id="rodape">
+                <img src="img/logo.svg" alt="">
                 &COPY; euclides981
+                <img src="img/logo.svg" alt="">
             </div>
         </footer>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>

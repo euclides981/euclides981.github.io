@@ -6,7 +6,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
-   sodipodi:docname="favicon.svg"
+   sodipodi:docname="logo.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -90,7 +90,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="8"
-     inkscape:cx="54.75"
+     inkscape:cx="-15.125"
      inkscape:cy="22.5625"
      inkscape:document-units="cm"
      inkscape:current-layer="g11265"
@@ -101,10 +101,10 @@
      inkscape:showpageshadow="false"
      width="1000px"
      showborder="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-1374"
+     inkscape:window-y="305"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
@@ -157,8 +157,7 @@
           </g>
         </g>
         <g
-           id="g11468"
-           style="fill:#264653;fill-opacity:1">
+           id="g11468">
           <ellipse
              style="opacity:1;fill:#264653;fill-opacity:1;fill-rule:evenodd;stroke-width:3.77703;stop-color:#000000"
              id="path9040"

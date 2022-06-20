@@ -9,6 +9,10 @@
     height: 50px;
     z-index: 1;
 }
+#logos_p_g {
+    display: flex;
+    justify-content: center;
+}
 .logo {
     margin-left: 20px;
 }
@@ -33,10 +37,15 @@
     .logo {
         display: none;
     }
-    #navbar {
-        justify-content: center;
-    }
     .links {
         margin: 0;
     }
-  }
+    #navbar {
+        justify-content: space-around;
+    }
+}
+@media only screen and (min-width: 600px) {
+    #logo_e9 {
+        display: none;
+    }
+}

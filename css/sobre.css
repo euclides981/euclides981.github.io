@@ -60,6 +60,7 @@
 .circ {
     background-color: #E9C46A;
     box-shadow: 1px 1px 10px #fff;
+    font-weight: 500;
     color: #264653;
     cursor:none;
     display: flex;
@@ -83,6 +84,7 @@
 .circ_par {
     background-color: #E9C46A;
     box-shadow: 1px 1px 10px #fff;
+    font-weight: 500;
     color: #264653;
     cursor:none;
     display: flex;
