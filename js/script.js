@@ -19,6 +19,21 @@ $('#navbar a, #texto a').click(function (e){
     );
 });
 
+
+
+// Carrossel
+const imgs = document.getElementById('img')
+let i = 0
+
+function carrossel() {
+    i ++
+    if(i > 7 ) {
+        i = 0
+    }
+    imgs.style.transform = `translateX(${-i * 330}px)`}
+setInterval(carrossel,3000)
+
+
 /* // Opacidade na barra de navegação
 
 window.addEventListener("scroll", function  () {
