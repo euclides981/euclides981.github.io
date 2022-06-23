@@ -9,6 +9,8 @@ var bike = document.getElementById('bike')
 var estudar = document.getElementById('estudar')
 var filosofia = document.getElementById('filosofia')
 var espiritualidade = document.getElementById('espiritualidade')
+var btMais = document.getElementById('bt_mais_sobre')
+var teste = document.getElementById('mais')
 
 afinco.addEventListener('click', () => {
     desc.innerHTML = 'Afinco: Obstinação, ação de fixar uma ideia no pensamento para alcançá-la.'
@@ -42,8 +44,6 @@ function mudaAnimacao() {
         desc.classList.add('aumenta')
     }
 }
-
-
 bike.addEventListener('click', () => {
     descHobbies.innerHTML = 'Ciclismo'
     mudaAnimacaoHobbies()
@@ -72,3 +72,7 @@ function mudaAnimacaoHobbies() {
         descHobbies.classList.add('giraDireita')
     }
 }
+
+btMais.addEventListener('click', () =>{
+    teste.classList.toggle('alternaTexto')
+})
