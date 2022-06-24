@@ -28,6 +28,9 @@
     cursor: pointer;
     text-transform: uppercase;
     color: #fff;
+    transition: 500ms;
+    font-weight: bold;
+    letter-spacing: .1in;
 }
 .btn_enviar:hover {
     background-color: #65df84;
@@ -48,11 +51,11 @@
     gap: 10px;
     margin-bottom: 50px;
 }
-#teste {
+#mailto {
     display: flex;
     justify-content: center;
 }
-#mailto {
+#mailto__titulo {
     display: grid;
     color: #000;
     padding: 10px;
@@ -63,7 +66,25 @@
     gap: 10px;
     text-align: center;
 }
-#link_mailto {
+#mailto--link {
     text-decoration: none;
     color: #000;
+}
+#mostra_curriculum{
+    display: flex;
+    justify-content: center;
+}
+#bt_cv{
+    background-color: #33abdb;
+    border:none;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 10px 15px;
+    transition: 500ms;
+    font-weight: bold;
+}
+#bt_cv:hover{
+    background-color: #65df84;
 }

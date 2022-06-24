@@ -2,13 +2,13 @@
     display: grid;
     background-image: url(../img/back.svg);
     justify-content: center;
-    padding: 50px;
+    padding-bottom: 20px;
     font-style: italic;
     gap: 50px;
 }
 #sobreMim {
     display: flex;
-    margin-top: 50px;
+    margin-top: 70px;
     align-items: center;
     gap: 20px;
 }
@@ -151,7 +151,7 @@
 	}
 }
 .descHobbies {
-    margin: 10px 0 10px 0;
+    margin-top: 20px;
     text-align: center;
     font-size: 1.5em;
 }
@@ -188,10 +188,12 @@
 }
 #mais {
     margin-bottom: 20px;
+    text-align: justify;
 }
 @media only screen and (max-width: 800px) {
     #sobre {
-        padding: 20px;
+        margin: 0;
+        padding: 10px;
       }
     #apresenta {
         display: grid;

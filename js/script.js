@@ -43,3 +43,14 @@ window.addEventListener("scroll", function  () {
         document.querySelector("#navbar").style.opacity = 1;
     }
 }) */
+
+document.getElementById('curriculum').style.display = 'none'
+var bt_cv = document.getElementById('bt_cv')
+var bt_cv_fecha = document.getElementById('curriculum__fecha')
+
+bt_cv.addEventListener('click', ()=>{
+    document.getElementById('curriculum').style.display = 'flex'
+})
+bt_cv_fecha.addEventListener('click', ()=>{
+    document.getElementById('curriculum').style.display = 'none'
+})

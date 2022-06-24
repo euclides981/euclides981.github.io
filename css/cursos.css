@@ -1,16 +1,14 @@
 #cursos {
-    display: flex;
+    display: grid;
     justify-content: center;
-}
-#central {
-    display: flex;
-    justify-content: center;
+    gap: 20px;
 }
 .carrossel {
     display: flex;
     background-color: rgba(255, 255, 255, 0.726);
     overflow: hidden;
     width: 330px;
+    box-shadow: 1px 1px 5px #d1d1d1;
 }
 .container {
     display: flex;
@@ -18,11 +16,9 @@
 }
 .cards_cursos {
     display: grid;
+    justify-content: center;
     width: 330px;
     gap: 5px;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
-    margin: 50px 0;
     padding: 20px 0;
 }
 .img_card {
@@ -32,4 +28,9 @@
     display: flex;
     align-items: center;
     gap: 10px;
+}
+.curso__h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
