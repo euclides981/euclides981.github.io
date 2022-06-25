@@ -26,12 +26,14 @@
     letter-spacing: 0.5px;
 }
 #link_contato {
-    font-weight: 700;
+    background-color: #33abdb;
+    padding: 2px 5px;
+    border-radius: 2px;
     text-decoration: none;
     color: #000;
 }
 #link_contato:hover {
-    border-bottom: 2px solid rgb(20, 20, 20);
+    color: #fff;
 }
 .icons {
     display: flex;
