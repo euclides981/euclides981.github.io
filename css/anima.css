@@ -1,0 +1,66 @@
+@keyframes circulos{
+	0%,100%{
+        transform:scale(1)
+	}
+	50%{
+        transform:scale(1.1)
+	}
+}
+@keyframes circulos_par{
+	0%,100%{
+        transform: scale(1.1);
+	}
+	50%{
+        transform: scale(1);
+	}
+}
+.desliza {
+    animation: desliza 1s ease-in-out;
+}
+@keyframes desliza {
+	0%{
+        opacity: 0;
+        transform: translateX(-1000px);
+	}
+	100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+.aumenta {
+    animation: aumenta 1s ease-in-out;
+}
+@keyframes aumenta {
+	0%{
+        opacity: 0;
+        transform:scale(0);
+	}
+	100% {
+        transform:scale(1);
+        opacity: 1;
+    }
+}
+.giraEsquerda {
+    animation: giraEsquerda 1s ease-in-out;
+}
+@keyframes giraEsquerda {
+	0%{
+        opacity: 0;
+        transform: rotate(-360deg);
+	}
+	100% {
+        opacity: 1;
+    }
+}
+.giraDireita {
+    animation: giraDireita 1s ease-in-out;
+}
+@keyframes giraDireita {
+	0%{
+        opacity: 0;
+        transform: rotate(360deg);
+	}
+	100% {
+        opacity: 1;
+    }
+}

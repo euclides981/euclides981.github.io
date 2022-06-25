@@ -3,20 +3,21 @@
     background-image: url(../img/back.svg);
     justify-content: center;
     padding-bottom: 20px;
+    margin: 0 10px;
     font-style: italic;
     gap: 50px;
 }
 #sobreMim {
-    display: flex;
+    display: grid;
     margin-top: 70px;
     align-items: center;
     gap: 20px;
 }
 #foto {
     display:flex;
-    justify-content: center;
     border: solid 1px #ccc;
     border-radius: 50%;
+    margin: auto;
 }
 #texto {
     flex-wrap: wrap;
@@ -47,56 +48,6 @@
     text-align: center;
     padding-top: 15px;
 }
-.desliza {
-    animation: desliza 1s ease-in-out;
-}
-@keyframes desliza {
-	0%{
-        opacity: 0;
-        transform: translateX(-1000px);
-	}
-	100% {
-        transform: translateX(0px);
-        opacity: 1;
-    }
-}
-.aumenta {
-    animation: aumenta 1s ease-in-out;
-}
-@keyframes aumenta {
-	0%{
-        opacity: 0;
-        transform:scale(0);
-	}
-	100% {
-        transform:scale(1);
-        opacity: 1;
-    }
-}
-.giraEsquerda {
-    animation: giraEsquerda 1s ease-in-out;
-}
-@keyframes giraEsquerda {
-	0%{
-        opacity: 0;
-        transform: rotate(-360deg);
-	}
-	100% {
-        opacity: 1;
-    }
-}
-.giraDireita {
-    animation: giraDireita 1s ease-in-out;
-}
-@keyframes giraDireita {
-	0%{
-        opacity: 0;
-        transform: rotate(360deg);
-	}
-	100% {
-        opacity: 1;
-    }
-}
 .imgs_hard {
     width: 50px;
 }
@@ -115,15 +66,8 @@
     text-align: center;
     border-radius: 50%;
     animation: circulos 2s ease-in-out infinite;
+    transition: 500ms;
     cursor: pointer;
-}
-@keyframes circulos{
-	0%,100%{
-        transform:scale(1)
-	}
-	50%{
-        transform:scale(1.1)
-	}
 }
 .circ_par {
     background-color: #33abdb;
@@ -137,18 +81,11 @@
     text-align: center;
     border-radius: 50%;
     animation: circulos_par 2s ease-in-out infinite;
+    transition: 500ms;
     cursor: pointer;
 }
 .circ_par:hover, .circ:hover{
-    background-color: #65df84;
-}
-@keyframes circulos_par{
-	0%,100%{
-        transform: scale(1.1);
-	}
-	50%{
-        transform: scale(1);
-	}
+    background-color: #7cbfda;
 }
 .descHobbies {
     margin-top: 20px;
@@ -168,6 +105,7 @@
     border-radius: 5px;
     text-transform: uppercase;
     padding: 10px 5px;
+    transition: 500ms;
 }
 #bt_mais_sobre:hover {
     background-color: #e8ecf0;
@@ -179,31 +117,24 @@
     gap: 20px;
 }
 #apresenta {
-    display: flex;
-    gap: 20px;
+    display: grid;
     align-items: center;
-    justify-content: space-between;
-    width: 780px;
+    justify-content:center;
     margin-bottom: 20px;
 }
 #mais {
     margin-bottom: 20px;
     text-align: justify;
 }
-@media only screen and (max-width: 800px) {
-    #sobre {
-        margin: 0;
-        padding: 10px;
-      }
+@media only screen and (min-width: 768px) {
     #apresenta {
-        display: grid;
-        justify-content: center;
-        width: auto;
+        display: flex;
+        justify-content: space-between;        
     }
     #sobreMim {
-        display: grid;
+        width: 768px;
     }
     #foto {
-        margin: auto;
+        margin: 0;
     }
-}
+} 
