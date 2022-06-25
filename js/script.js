@@ -1,6 +1,6 @@
 // Deslizar ao clicar em links
 
-$('#navbar a, #texto a').click(function (e){
+$('.logo a, .links a, #texto a').click(function (e){
     
     e.preventDefault();
 
@@ -8,7 +8,7 @@ $('#navbar a, #texto a').click(function (e){
 
     var targetOffset = $(id).offset().top
     
-    var alturaNav = $('#navbar').innerHeight()
+    var alturaNav = $('.nav').innerHeight()
 
     $('html, body').animate(
         {

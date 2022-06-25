@@ -1,4 +1,4 @@
-#navbar {
+.nav {
     font-weight: bold;
     position: fixed;
     display: flex;
@@ -9,19 +9,19 @@
     height: 50px;
     z-index: 1;
 }
-#logos_p_g {
-   margin-left: 20px;
-}
 .logo {
+    margin-left: 20px;
+}
+.logo__grande {
     display: none;
 }
-#links_lista {
+.links {
     display: flex;
     gap: 20px;
     margin-right: 20px;
     text-transform: uppercase;
 }
-.links_nav {
+.links__a {
     color: #fff;
     text-decoration: none;
 }
@@ -29,11 +29,11 @@
     border-bottom: 2px solid #fff;
 }
 
-@media only screen and (min-width: 768px) {
-    #logo_e9 {
+@media screen and (min-width: 768px) {
+    .logo__pequeno {
         display: none;
     }
-    .logo {
+    .logo__grande {
         display: flex;
     }
     
