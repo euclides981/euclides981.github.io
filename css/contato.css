@@ -7,12 +7,16 @@
     display: grid;
     box-shadow: 1px 1px 10px #969292;
     background-color: #fff;
-    gap: 5px;
+    gap: 10px;
     max-width: 500px;
     padding: 20px;
     border-radius: 5px;
     margin: auto;
     margin-bottom: 80px;
+}
+.campos__unicos {
+    display: grid;
+    gap: 2px;
 }
 .formulario {
     border: solid 1px #264653;
@@ -30,7 +34,6 @@
     color: #fff;
     transition: 500ms;
     font-weight: bold;
-    letter-spacing: .1in;
 }
 .btn_enviar:hover {
     background-color: #65df84;
@@ -87,4 +90,35 @@
 }
 #bt_cv:hover{
     background-color: #65df84;
+}
+#curriculum{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+#curriculum__corpo{
+    display: grid;
+    width: 100%;
+    height: 100%;
+}
+#curriculum__fecha{
+    background-color: #33abdb;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+}
+#curriculum__pdf{
+    width: 100%;
+    height: 100vh;
 }

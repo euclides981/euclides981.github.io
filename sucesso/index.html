@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta name="robots" content="noindex">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mensagem Enviada com Sucesso</title>
+    </head>
+    <body style="background-image: url(../img/back.svg);">
+        <div class="sucesso">   
+            <div class="mensagem">
+                <h1>Mensagem Enviada com Sucesso</h1>
+                <h2>Responderei o mais breve possível</h2>
+            </div> 
+        </div>
+        <style>
+            .sucesso {
+            background-color: #000000c7;
+            display: grid;
+            position: fixed;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            height: 100vh;
+            right: 0;
+        }
+        .mensagem {
+            font-family: 'Ubuntu', sans-serif;
+            color: #33abdb;
+            text-transform: capitalize;
+            background-color: #fff;
+            padding: 5px 20px;
+            border-radius: 10px;
+            animation: envio 500ms;
+            box-shadow: 1px 1px 10px #000;
+            margin: 10px;
+        }
+        @keyframes envio {
+            0% {
+                transform: scale(0);
+            }
+        }
+
+        </style>
+
+        <script>
+            setTimeout(function() {
+                window.location.href = "https://euclides981.github.io/";
+            }, 2000);
+        </script>
+    </body>
+</html>

@@ -54,3 +54,5 @@ bt_cv.addEventListener('click', ()=>{
 bt_cv_fecha.addEventListener('click', ()=>{
     document.getElementById('curriculum').style.display = 'none'
 })
+
+

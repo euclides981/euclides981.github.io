@@ -224,11 +224,24 @@
                 </div>
                 <form id="campos" method="post" action="https://api.staticforms.xyz/submit">
                     <input type="hidden" name="accessKey" value="0ebeb789-c498-47ce-b606-9eb8ccd3c80b">
-                    <input type="hidden" name="redirectTo" value="https://euclides981.github.io/">
-                    <input class="formulario" type="text" name="name" id="inputNome" placeholder="Nome" required>
-                    <input class="formulario" type="email" name="email" id="inputEmail" placeholder="Email" required>
-                    <textarea class="formulario" type="message" name="message" id="textAreaMensagem" rows="10" placeholder="Mensagem" required></textarea>
-                    <button class="formulario btn_enviar" type="submit">Enviar</button>
+                    <input type="hidden" name="redirectTo" value="https://euclides981.github.io/sucesso">
+                    <div class="campos__unicos">
+                        <label for="">Nome</label>
+                        <input class="formulario" type="text" name="name" id="inputNome" placeholder="Digite seu Nome" required>
+                    </div>
+                    <div class="campos__unicos">
+                        <label for="">E-mail</label>
+                        <input class="formulario" type="email" name="email" id="inputEmail" placeholder="Digite seu E-mail" required>
+                    </div>
+                    <div class="campos__unicos">
+                        <label for="">Assunto</label>
+                        <input class="formulario" type="assunto" name="assunto" id="inputAssunto" placeholder="Digite o Assunto">
+                    </div>
+                    <div class="campos__unicos">
+                        <label for="">Mensagem</label>
+                        <textarea class="formulario" type="message" name="message" id="textAreaMensagem" rows="10" placeholder="Digite sua Mensagem" required></textarea>
+                    </div>
+                    <button class="formulario btn_enviar" type="submit">Enviar Mensagem</button>
                 </form>
                 <div class="midias">
                     <div class="links_sociais">
