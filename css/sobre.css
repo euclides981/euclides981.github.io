@@ -35,13 +35,30 @@
 #link_contato:hover {
     color: #fff;
 }
+.skills {
+   display: grid;
+   margin: 10px;
+   padding: 0 10px;
+}
 .icons {
     display: flex;
-    padding-top: 20px;
     flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
+    cursor: pointer;
+    gap: 30px;
+}
+#soft_skills {
+    display: grid;
+    gap: 10px;
+}
+#hard_skills {
+    display: grid;
+    margin-top: 10px;
+    gap: 10px;
+}
+#hobbies {
+    display: grid;
+    margin-top: 40px;
+    gap: 10px;
 }
 .desc {
     display: flex;
@@ -54,37 +71,33 @@
     width: 50px;
 }
 .imgs_hobbies {
-    width: 70px;
+    width: 50px;
 }
 .circ {
     background-color: #33abdb;
     font-weight: 500;
-    cursor:none;
     display: flex;
     width: 100px;
-    height: 80px;
+    height: 70px;
     justify-content: center;
     align-items: center;
     text-align: center;
     border-radius: 5px;
     animation: circulos 2s ease-in-out infinite;
     transition: 500ms;
-    cursor: pointer;
 }
 .circ_par {
     background-color: #33abdb;
     font-weight: 500;
-    cursor:none;
     display: flex;
     width: 100px;
-    height: 80px;
+    height: 70px;
     justify-content: center;
     align-items: center;
     text-align: center;
     border-radius: 5px;
     animation: circulos_par 2s ease-in-out infinite;
     transition: 500ms;
-    cursor: pointer;
 }
 .circ_par:hover, .circ:hover{
     background-color: #7cbfda;
@@ -126,8 +139,13 @@
     margin-bottom: 20px;
 }
 #mais {
-    margin-bottom: 20px;
+    margin: 20px;
 }
+@media screen and (min-width: 360px) {
+   .icons {
+    gap: 10px;
+   }
+} 
 @media screen and (min-width: 768px) {
     #sobreMim {
         width: 748px;
@@ -140,4 +158,7 @@
     #foto {
         margin: 0;
     }
+    .icons {
+        gap: 10px;
+       }
 } 

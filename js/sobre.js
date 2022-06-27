@@ -3,6 +3,8 @@ var dedicacao = document.getElementById('dedicacao')
 var etica = document.getElementById('etica')
 var foco = document.getElementById('foco')
 var respeito = document.getElementById('respeito')
+var proativo = document.getElementById('proativo')
+var cooperacao = document.getElementById('cooperacao')
 var desc = document.querySelector('.desc')
 var descHobbies = document.querySelector('.descHobbies')
 var bike = document.getElementById('bike')
@@ -29,7 +31,15 @@ foco.addEventListener('click', () => {
     mudaAnimacao()
 })
 respeito.addEventListener('click', () => {
-    desc.innerHTML = 'Respeito: Capacidade de ter empatia com o próximo'
+    desc.innerHTML = 'Respeito: Capacidade de ter empatia com o próximo.'
+    mudaAnimacao()
+})
+proativo.addEventListener('click', () => {
+    desc.innerHTML = 'Busca por mudanças de maneira espontânea.'
+    mudaAnimacao()
+})
+cooperacao.addEventListener('click', () => {
+    desc.innerHTML = 'Ação ou resultado de cooperar, de prestar ajuda.'
     mudaAnimacao()
 })
 
