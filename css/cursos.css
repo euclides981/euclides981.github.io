@@ -1,7 +1,5 @@
 #cursos {
-    display: grid;
-    justify-content: center;
-    gap: 20px;
+    display: none;
 }
 .carrossel {
     display: flex;
@@ -34,3 +32,10 @@
     justify-content: center;
     align-items: center;
 }
+@media screen and (min-width: 400px) {
+    #cursos {
+        display: grid;
+        justify-content: center;
+        gap: 20px;
+    }
+} 

@@ -40,38 +40,20 @@
     color: #000;
 }
 .midias {
-    display: flex;
+    display: grid;
     justify-content: center;
     gap:10px;
 }
+.logo__redes {
+    width: 40px;
+}
 .links_sociais {
-    display: grid;
-    width: 100px;
-    border: solid 1px #000;
+    border: solid 1px #ccc;
     border-radius: 5px;
     padding: 10px;
     text-align: center;
     gap: 10px;
     margin-bottom: 50px;
-}
-#mailto {
-    display: flex;
-    justify-content: center;
-}
-#mailto__titulo {
-    display: grid;
-    color: #000;
-    padding: 10px;
-    width: 100px;
-    border: solid 1px #000;
-    border-radius: 5px;
-    text-decoration: none;
-    gap: 10px;
-    text-align: center;
-}
-#mailto--link {
-    text-decoration: none;
-    color: #000;
 }
 #mostra_curriculum{
     display: flex;
@@ -122,3 +104,8 @@
     width: 100%;
     height: 100vh;
 }
+@media screen and (min-width: 400px) {
+    .midias {
+        display: flex;
+    }
+} 
