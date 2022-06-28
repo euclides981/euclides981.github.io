@@ -40,7 +40,8 @@
     color: #000;
 }
 .midias {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap:10px;
 }
@@ -53,7 +54,6 @@
     padding: 10px;
     text-align: center;
     gap: 10px;
-    margin-bottom: 50px;
 }
 #mostra_curriculum{
     display: flex;
@@ -104,8 +104,3 @@
     width: 100%;
     height: 100vh;
 }
-@media screen and (min-width: 400px) {
-    .midias {
-        display: flex;
-    }
-} 

@@ -13,20 +13,20 @@
     text-align: center;
 }
 .cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+    gap: 20px;
+    width: 96%;
+    margin: 2%;
 }
 .card_image {
     display: grid;
     gap: 5px;
     padding: 10px;
-    gap: 5px;
-    width: 100%;
     border-radius: 5px;
+    width: 90%;
     background-color: #ece4e4;
-    margin: 10px;
+    margin: auto;
 }
 .card_image:hover {
     background-color: #ccc;
@@ -55,8 +55,3 @@
     background-color: #fff;
     box-shadow: 0.2px 0.2px 1px #000;
 }
-@media screen and (min-width: 450px) {
-    .card_image {
-        width: 350px;
-    }
- } 

@@ -41,10 +41,9 @@
    padding: 0 10px;
 }
 .icons {
-    display: flex;
-    flex-wrap: wrap;
-    cursor: pointer;
-    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+    gap: 10px;
 }
 #soft_skills {
     display: grid;
@@ -141,11 +140,7 @@
 #mais {
     margin: 20px;
 }
-@media screen and (min-width: 360px) {
-   .icons {
-    gap: 10px;
-   }
-} 
+
 @media screen and (min-width: 768px) {
     #sobreMim {
         width: 748px;
@@ -158,7 +153,4 @@
     #foto {
         margin: 0;
     }
-    .icons {
-        gap: 10px;
-       }
-} 
+}
