@@ -1,7 +1,7 @@
 #projetos {
     background-color: #f5f5f5;
     background-image: url(../img/back-rotate.svg);
-    padding: 50px;
+    padding: 50px 0;
 }
 .titulo {
     display: flex;
@@ -23,7 +23,7 @@
     gap: 5px;
     padding: 10px;
     gap: 5px;
-    width: 350px;
+    width: 100%;
     border-radius: 5px;
     background-color: #ece4e4;
     margin: 10px;
@@ -55,3 +55,8 @@
     background-color: #fff;
     box-shadow: 0.2px 0.2px 1px #000;
 }
+@media screen and (min-width: 450px) {
+    .card_image {
+        width: 350px;
+    }
+ } 
