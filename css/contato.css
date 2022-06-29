@@ -48,6 +48,18 @@
 .logo__redes {
     width: 40px;
 }
+.logo_linkedin {
+    filter: invert(26%) sepia(100%) saturate(1353%) hue-rotate(191deg) brightness(96%) contrast(95%);
+}
+.logo_telegram {
+    filter: invert(56%) sepia(67%) saturate(2034%) hue-rotate(169deg) brightness(95%) contrast(88%);
+}
+.logo_gmail {
+    filter: invert(40%) sepia(31%) saturate(7485%) hue-rotate(342deg) brightness(95%) contrast(93%);
+}
+.logo_discord {
+    filter: invert(39%) sepia(16%) saturate(4947%) hue-rotate(213deg) brightness(97%) contrast(96%);
+}
 .links_sociais {
     border: solid 1px #ccc;
     border-radius: 5px;
