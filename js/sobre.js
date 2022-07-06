@@ -12,7 +12,7 @@ var estudar = document.getElementById('estudar')
 var filosofia = document.getElementById('filosofia')
 var espiritualidade = document.getElementById('espiritualidade')
 var btMais = document.getElementById('bt_mais_sobre')
-var teste = document.getElementById('mais')
+var texto = document.getElementById('mais')
 
 afinco.addEventListener('click', () => {
     desc.innerHTML = 'Afinco: Obstinação, ação de fixar uma ideia no pensamento para alcançá-la.'
@@ -84,5 +84,5 @@ function mudaAnimacaoHobbies() {
 }
 
 btMais.addEventListener('click', () =>{
-    teste.classList.toggle('alternaTexto')
+    texto.classList.toggle('alternaTexto')
 })
