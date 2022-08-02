@@ -75,9 +75,9 @@
 .circ {
     background-color: #33abdb;
     font-weight: 500;
-    display: flex;
-    width: 100px;
-    height: 70px;
+    display: grid;
+    width: 95px;
+    height: 95px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -88,9 +88,9 @@
 .circ_par {
     background-color: #33abdb;
     font-weight: 500;
-    display: flex;
-    width: 100px;
-    height: 70px;
+    display: grid;
+    width: 95px;
+    height: 95px;
     justify-content: center;
     align-items: center;
     text-align: center;
